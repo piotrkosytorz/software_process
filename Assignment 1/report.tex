@@ -1,0 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LATEX-TEMPLATE TECHNICAL REPORT
+%-------------------------------------------------------------------------------
+% Voor informatie over het technisch rapport, zie
+% http://practicumav.nl/onderzoeken/rapport.html
+% Voor readme en meest recente versie van het template, zie
+% https://gitlab-fnwi.uva.nl/informatica/LaTeX-template.git
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES EN DOCUMENT CONFIGURATIE
+%-------------------------------------------------------------------------------
+
+\documentclass{uva-inf-article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage[
+backend=biber,
+style=numeric,
+citestyle=numeric 
+]{biblatex}
+
+\addbibresource{citations.bib} %Imports bibliography file
+
+% Relevant voor refereren vanaf blok 5
+%\usepackage[style=authoryear-comp]{biblatex}
+%\addbibresource{citations.bib}
+
+%-------------------------------------------------------------------------------
+%	GEGEVENS VOOR IN DE TITEL
+%-------------------------------------------------------------------------------
+
+% Vul de naam van de opdracht in.
+\assignment{Software Process}
+% Vul het soort opdracht in.
+\assignmenttype{Report}
+% Vul de titel van de eindopdracht in.
+\title{Assignment 1}
+
+% Vul de volledige namen van alle auteurs in.
+\authors{Piotr Kosytorz}
+% Vul de corresponderende UvAnetID's in.
+\uvanetids{UvAnetID 11876964}
+
+% Vul altijd de naam in van diegene die het nakijkt, tutor of docent.
+\tutor{drs. Hans Dekker}
+% Vul eventueel ook de naam van de docent of vakcoordinator toe.
+\docent{}
+% Vul hier de naam van de PAV-groep  in.
+\group{}
+% Vul de naam van de cursus in.
+\course{Software Process}
+% Te vinden op onder andere Datanose.
+\courseid{}
+
+% Dit is de datum die op het document komt te staan. Standaard is dat vandaag.
+\date{\today}
